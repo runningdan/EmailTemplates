@@ -1,4 +1,5 @@
-Hello {first_name},
+{{ IfThenElse(first_name != "", "Hello {first_name},", "Hello,") }}
+
 
 After scrolling through I saw a few issues on your website ({domain}) that are causing you to lose customers. I thought I would let you know.
 
